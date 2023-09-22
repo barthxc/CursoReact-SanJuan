@@ -1,0 +1,29 @@
+.nav{
+    display:none;
+    margin-top: 30px;
+    position: fixed;
+    margin-left: 50px;
+    padding: 15px;
+    border-radius: 10px;
+    text-align: left;
+    z-index: 99;
+    text-decoration: none;
+    backdrop-filter: blur(15px);
+    background: rgba(255, 255, 255, 0.040);
+    flex-direction: column !important;
+}
+
+/**OPEN PARA ABRIR**/
+nav.open{
+    display:block;
+}
+
+nav a{
+    margin-top: 5px;
+    display: block;
+    color: #fff;
+    text-decoration: none;
+    margin-bottom: 10px;
+    font-weight: bold;
+
+}

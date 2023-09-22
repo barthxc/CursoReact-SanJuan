@@ -1,0 +1,12 @@
+footer{
+    background: #060f18;
+}
+
+
+/*FOOTER PROBLEMS I / A bootstrap*/
+
+
+footer p{
+    font-size: 15px;
+    margin-bottom: 0;
+}
