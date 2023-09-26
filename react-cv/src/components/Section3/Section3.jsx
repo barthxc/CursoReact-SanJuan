@@ -11,8 +11,6 @@ function Section3() {
         <div className="flex-chart">
           <div className="container-chart ">
                      <Tag/>
-            <canvas id="myChart">
-            </canvas>
           </div>
         </div>
       </div>
