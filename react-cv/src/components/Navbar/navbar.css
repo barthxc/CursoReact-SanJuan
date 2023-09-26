@@ -1,3 +1,34 @@
+/**OPEN PARA CAMBIAR MI BOTON**/
+
+.nav-bar{
+    background-image: url(./../../assets/icons8-jellyfish-48.png);
+    margin-top: 30px;
+    margin-left: 80px;
+    position:fixed;
+    font-size: 20px;
+    width: 45px;
+    height: 50px;
+    line-height: 50px;
+    cursor: pointer;
+    transition: .3s;
+    backdrop-filter: blur(15px);
+    border-radius: 20%;
+}
+
+
+/**OPEN PARA CAMBIAR MI BOTON**/
+
+.nav-bar.open{
+    background-image: url(./../../assets/icons8-jellyfish-48-2.png);
+
+}
+
+.nav-bar img{
+    backdrop-filter: blur(15px);
+    background: rgba(255, 255, 255, 0.040);
+    border-radius: 20%;
+}
+
 .nav{
     display:none;
     margin-top: 30px;
@@ -15,10 +46,10 @@
 
 /**OPEN PARA ABRIR**/
 nav.open{
-    display:block;
+    display:flex;
 }
 
-nav a{
+nav p{
     margin-top: 5px;
     display: block;
     color: #fff;

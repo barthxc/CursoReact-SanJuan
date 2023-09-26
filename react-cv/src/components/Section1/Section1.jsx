@@ -1,14 +1,12 @@
 import './section1.css'
-import Navbar from './../Navbar/Navbar';
 
 function Section1(){
     return (
     <section className="home" id="home">
         <div className="section-content">
             <header>
-                <Navbar/>
                 <div className="logo">
-                   <a href="../index.html"><img src="./../../public/LOGO_MORADO-B1.png"  alt="logo" className="logo"></img></a> 
+                   <a href="https://barthxc.github.io"><img src="./../../public/LOGO_MORADO-B1.png"  alt="logo" className="logo"></img></a> 
                 </div>
             </header>
                 <div className="info">

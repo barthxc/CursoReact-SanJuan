@@ -1,4 +1,5 @@
 import "./section2.css";
+import Navbar from "../Navbar/Navbar";
 
 function Section2() {
   return (

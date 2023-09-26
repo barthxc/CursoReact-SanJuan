@@ -19,6 +19,7 @@ html{
     background-size: cover;
     background-position: center center;
     color: #fff;
+    height: 90vh;
 }
 
 .home .section-content{
@@ -42,34 +43,6 @@ html{
     width: 7vmax;
     display: inline;
     cursor: pointer;
-}
-
-/**OPEN PARA CAMBIAR MI BOTON**/
-
-.home .section-content header .nav-bar{
-    background-image: url(./../../assets/icons8-jellyfish-48.png);
-    margin-top: 30px;
-    position:fixed;
-    font-size: 20px;
-    width: 45px;
-    height: 50px;
-    line-height: 50px;
-    cursor: pointer;
-    transition: .3s;
-    backdrop-filter: blur(15px);
-    border-radius: 20%;
-}
-
-/**OPEN PARA CAMBIAR MI BOTON**/
-.home .section-content header .nav-bar.open{
-    background-image: url(./../../assets/icons8-jellyfish-48-2.png);
-
-}
-
-.home .section-content header .nav-bar img{
-    backdrop-filter: blur(15px);
-    background: rgba(255, 255, 255, 0.040);
-    border-radius: 20%;
 }
 
 .home .section-content .info{
